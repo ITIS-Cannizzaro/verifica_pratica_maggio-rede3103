@@ -48,7 +48,8 @@ public class Frame extends JFrame implements ActionListener
 		frame1.add(okay);
 		/*okay.setFont(fonttt);
 		okay.setBounds(20,150,10,10);*/
-		
+		//il problema è nelle dimensioni del tasto "okay",la dimensione del pulsante è stata impostata con il metodo "setBounds()". 
+		//Questo rende il pulsante troppo piccolo per essere visualizzato correttamente. Prova a cercare il metodo SetPreferredSize() ed il suoo funzionamento!
 		cont.add(aggiungi);
 		aggiungi.setFont(fonttt);
 		aggiungi.setBounds(20,150, 100, 40);
